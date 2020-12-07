@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-wearablecompute, an open source Python package containing over 50 data and domain-driven features that can be computed from wearables and mHealth sensor data. wearablecompute has been integrated in the Digital Biomarker Discovery Pipeline (DBDP), currently in use in dozens of projects across several institutions. This resource will help make discovering digital biomarkers more accessible and standardize best practices across the field. 
+wearablecompute is an open source Python package containing over 50 data and domain-driven features that can be computed from wearables and mHealth sensor data. wearablecompute has been integrated in the Digital Biomarker Discovery Pipeline (DBDP), currently in use in dozens of projects across several institutions. This resource will help make discovering digital biomarkers more accessible and standardize best practices across the field. 
 
 Data from mHealth and wearables can be transformed into digital biomarkers that act as indicators of health outcomes and can be used to diagnose, monitor, and manage chronic diseases and conditions. 
 

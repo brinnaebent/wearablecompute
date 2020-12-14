@@ -31,6 +31,8 @@ $ git clone
 
 We have included import functions to format data for use with the wearablecompute package. These functions currently support the most common wearables used in digital biomarker development, including Empatica E4, Garmin, Fitbit, and Apple Watch, with plans to add additional import functions for other wearables, including Whoop and Oura Ring. Any wearable device can be used with wearablecompute, and we provide complete documentation to enable users to adapt their wearables data for use with wearablecompute. Functions are available for 50+ data- and domain-driven engineered features that are currently in use in digital biomarker discovery projects. 
 
+[USER GUIDE](https://github.com/brinnaebent/wearablecompute/wiki/USER-GUIDE)
+
 
 ### Continued Development
 

@@ -8,10 +8,10 @@ setup(name='wearablecompute',
       download_url = 'https://github.com/brinnaebent/wearablevar/archive/0.4.tar.gz',
       author='Brinnae Bent',
       author_email='runsdata@gmail.com',
-      keywords = ['wearables', 'features', 'feature engineering'],
+      keywords = ['wearables', 'mhealth', 'features', 'feature engineering'],
       license='MIT',
 
-      install_requires=['pandas','numpy','datetime',],
+      install_requires=['pandas','numpy','datetime', 'scipy',],
 
       classifiers=[
         'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package

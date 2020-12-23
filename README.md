@@ -1,47 +1,37 @@
-# wearablevar
+# wearablecompute
+### Feature Engineering mHealth + wearables
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-wearablevar is a Python package that calculates wearable variability metrics from longitudinal wearable sensors. These features can be used as part of your feature engineering process.
+wearablecompute is an open source Python package containing over 50 data and domain-driven features that can be computed from wearables and mHealth sensor data. wearablecompute has been integrated in the Digital Biomarker Discovery Pipeline (DBDP), currently in use in dozens of projects across several institutions. This resource will help make discovering digital biomarkers more accessible and standardize best practices across the field. 
 
-wearblevar is part of the Digital Biomarker Discovery Pipeline, available at dbdp.org.
+Data from mHealth and wearables can be transformed into digital biomarkers that act as indicators of health outcomes and can be used to diagnose, monitor, and manage chronic diseases and conditions. 
+
+wearblecompute is part of the Digital Biomarker Discovery Pipeline, available at dbdp.org.
 
 
 ### Installation
 
-wearablevar requires the pandas, numpy, and datetime packages.
+wearablecompute requires the pandas, numpy, and datetime packages.
 
 Recommended: Install via pip:
 
 ```sh
-$ pip install wearablevar
+$ pip install wearablecompute
 ```
 
 Install via git:
 
 ```sh
-$ pip install git+git://github.com/brinnaebent/wearablevar.git
+$ pip install git+git://github.com/brinnaebent/wearablecompute.git
 $ git clone
 ```
 
-### Functions
+### Features
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+We have included import functions to format data for use with the wearablecompute package. These functions currently support the most common wearables used in digital biomarker development, including Empatica E4, Garmin (coming soon), Fitbit (coming soon), and Apple Watch (coming soon), with plans to add additional import functions for other wearables, including Whoop and Oura Ring. Any wearable device can be used with wearablecompute, and we provide complete documentation to enable users to adapt their wearables data for use with wearablecompute. Functions are available for 50+ data- and domain-driven engineered features that are currently in use in digital biomarker discovery projects. 
 
-| Plugin | README |
-| ------ | ------ |
-| summarymetrics | interday mean, median, minimum, maximum, Q1, Q3 |
-| interdaycv | interday coefficient of variation |
-| interdaysd | interday standard deviation |
-| intradaycv | intraday coefficient of variation (mean, median, standard deviation) |
-| intradaysd | intraday standard deviation (mean, median, standard deviation) |
-| intradaymean | intraday mean (mean, median, standard deviation)|
-| TIR | Time in Range (SD default=1), *Note time relative to SR |
-| TOR | Time outside Range (SD default=1), *Note time relative to SR |
-| POR | Percent Outside Range (%) (SD default=1) |
-| MASE | Mean Amplitude of Sensor Excursions (SD default=1) |
-| importe4 | Import sensor data in 2 columns: datetime type, sensor type  |
-| importe4acc | Import tri-axial accelerometry data in 4 columns: datetime type, sensor type x,y,z  |
+[USER GUIDE](https://github.com/brinnaebent/wearablecompute/wiki/USER-GUIDE)
 
 
 ### Continued Development

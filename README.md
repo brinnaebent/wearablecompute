@@ -12,7 +12,7 @@ wearblecompute is part of the Digital Biomarker Discovery Pipeline, available at
 
 ### Installation
 
-wearablecompute requires the pandas, numpy, and datetime packages.
+wearablecompute requires the pandas, numpy, scipy, and datetime packages.
 
 Recommended: Install via pip:
 
